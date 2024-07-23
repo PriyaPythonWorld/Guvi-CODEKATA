@@ -1,0 +1,33 @@
+'''
+Write a code to get the input in the given format and print the output in the given format.
+
+Input Description:
+First-line indicates two integers which are the size of array and 'K' value. Second-line indicates an integer contains
+elements of an array.
+
+Output Description:
+Print the taken input in the same format.
+
+Sample Input :
+5 3
+1 2 3 4 5
+Sample Output :
+5 3
+1 2 3 4 5
+'''
+a = input()
+b = input()
+print(a)
+print(b)
+
+#------------------------------------------------------------------------------------------------------------------------
+#chat gpt
+# Reading the first line of input which contains two integers
+size_and_k = input()
+
+# Reading the second line of input which contains the array elements
+array_elements = input()
+
+# Printing the inputs as they were taken
+print(size_and_k)
+print(array_elements)
